@@ -1,0 +1,84 @@
+body{
+    background-color: #E8F1FA;
+    height: 5000px;
+}
+/* Nab Bar Style */
+
+nav{
+    background-color: white;
+    box-shadow: 0px 4px 15px black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 6.5rem;
+
+}
+#btn{
+    background-color: lightblue;
+}
+#inp{
+    width: 400px;
+}
+#item{
+    color: black;
+    font-weight:bold;
+    color: white;
+}
+.nav-image{
+    border-radius: 50%;
+    width: 100px;
+}
+#navbarsExample04{
+    margin-left: 200px;
+}
+#item-container{
+position: relative;
+left: 10%;
+}
+.btn1,.btn2{
+    border-radius: 20px;
+    margin-left: 40px;
+    background-color: #0055FF;
+    border: transparent;
+}
+
+@media(max-width:700px){
+#inp{
+    width: 100%;
+}
+.btn1,.btn2{
+    margin-left: 0px;
+    margin-top: 5px;
+}
+nav{
+    height: 7.2em;
+}
+}
+
+/* content Layout */
+
+.page-container{
+    display: grid;
+    grid-template-columns: 20% 65% 16%;
+    margin-top: 2rem;
+}
+
+/* Side Bar */
+
+.side-bar-container li{
+    margin-bottom: 5px;
+}
+.side-bar-container {
+    height: fit-content;
+}
+
+/*Drop down*/
+
+.dropdown-container{
+    height: fit-content;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.dropdown-container ul li {
+    margin: 20px 10px 0 10px;
+}
